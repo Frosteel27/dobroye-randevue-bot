@@ -1,0 +1,28 @@
+{
+  "name": "dobroye-randevue-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frosteel27/dobroye-randevue-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frosteel27/dobroye-randevue-bot/issues"
+  },
+  "homepage": "https://github.com/Frosteel27/dobroye-randevue-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-schedule": "^2.1.0",
+    "telegraf": "^4.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
